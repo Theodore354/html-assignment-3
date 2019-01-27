@@ -6,37 +6,66 @@
 	<title>Rahul's Recipe Show</title>
 	<!- This meta ensures that all the available character sets can be used in the HTML doucment. -->
 	<meta charset="UTF-8">
+	<style type="text/css">
+		#img{
+			height: 500px;
+			width: 1000px;
+		}
+		img{
+			width: 50%;
+			height: 100%;
+			float: left;
+		}
+		#clear{
+			clear: both;
+		}
+	</style>
 </head>
-<!- Next to head is the "body" tag which holds all the elements which shows the content on browser. It can have mulitple elements. Our document has ordered and unordered lists. The order list has list items which have numeric bullet points and generally used to show ordered listing. The other is unordered list which is used to show all the list items with non-numeric bullet points and used to represent unordered listing-->
+<!- Next to head is the "body" tag which holds all the elements which shows the content on browser. It can have mulitple elements. Our document has ordered and unordered lists. The order list has list items which have numeric bullet points and generally used to show ordered listing. The other is unordered list which is used to show all the list items with non-numeric bullet points and used to represent unordered listing -->
 <body>
 	<h1>Rahul's Recipe World</h1>
 	<p>This page is Specially Designed to Show the recipe for most exclusive Dishes in World</p>
-	<p>Today We are Preparing <strong>Chicken Lollipop</strong> and the ingridents and receipe is mentioned Below. This dish is the best of a kind in Fried Chickens and it is really very delicious</p>
-	<ul>
-		<li>Chicken Breast</li>
-		<li>Red Chilli Powder</li>
-		<li>Salt</li>
-		<li>Eggs</li>
-		<li>Olive Oil</li>
-		<li>Flour</li>
-		<li>Curd</li>
-		<li>Coriander Leaves</li>
-		<li>Schezwan Sauce</li>
-	</ul>
-	<p>Now below is the Recipe to prepare delicious Chicken Lollipop</p>
-	<ol>
-		<li>Firstly, Clean the Chicken breast with water 😰</li>
-		<li>Parellely, create a batter of flour, ree chilli powder, salt and eggs 😤</li>
-		<li>Stir it neatly to make it dense 😤</li>
-		<li>Then dip the Chicken breasts in it 😯</li>
-		<li>Alongside, heat the olive to a high temperature 😡</li>
-		<li>Pour the chicken breasts in the heated oil and deep fry it for 10 mins 😅</li>
-		<li>Take the Chicken Breast out and garnish the same with Coriander leaves 😋</li>
-		<li>Serve it with Schezwan Sauce. 😍</li>
-	</ol>
+	<p>Today We are Preparing <strong>Chicken Lollipop</strong> and the ingridents and receipe is mentioned Below. This dish is the best of a kind in Fried Chickens and it is really very delicious. There are three sections mentioned below. Ingredients section, Recipe Section and other links to different Chefs</p>
+	<div>
+		<h3>Ingredients</h3>
+		<ul>
+			<li>Chicken Breast</li>
+			<li>Red Chilli Powder</li>
+			<li>Salt</li>
+			<li>Eggs</li>
+			<li>Olive Oil</li>
+			<li>Flour</li>
+			<li>Curd</li>
+			<li>Coriander Leaves</li>
+			<li>Schezwan Sauce</li>
+		</ul>
+	</div>
+	<div>
+		<h3>Recipe</h3>
+		<p>Now below is the Recipe to prepare delicious Chicken Lollipop</p>
+		<ol>
+			<li>Firstly, Clean the Chicken breast with water 😰</li>
+			<li>Parellely, create a batter of flour, ree chilli powder, salt and eggs 😤</li>
+			<li>Stir it neatly to make it dense 😤</li>
+			<li>Then dip the Chicken breasts in it 😯</li>
+			<li>Alongside, heat the olive oil to a high temperature 😡</li>
+			<li>Pour the chicken breasts in the heated oil and deep fry it for 10 mins 😅</li>
+			<li>Take the Chicken Breast out and garnish the same with Coriander leaves 😋</li>
+			<li>Serve it with Schezwan Sauce. 😍</li>
+		</ol>
+	</div>
 	<p>The Chicken lollipop tastes awesome. It has rich, juicy Chicken taste with flavors of coriander and adding it with a touch of salty and sour sauce. Below is how the Chicken Lollipop looks like</p>
-	<img src="lollipop.jpg"/>
-	<img src="lollipop1.jpg"/>	
-	<p>This recipe is a must try. Please try and leave your commments</p>
+	<div id="img">	
+		<img src="lollipop.jpg"/>
+		<img src="lollipop1.jpg"/>	
+	</div>
+	<p>The above mentioned recipe is done in different ways. This can also be done by other means. Hence the same is mentioned in below links</p>
+	<ol>
+		<li>Link to India Healthy Lollipop Recipe <a href="https://www.indianhealthyrecipes.com/chicken-lollipop-recipe/">Click Here</a></li>
+		<li>Link to Tasty Co Lollipop Recipe <a href="https://tasty.co/recipe/chicken-lollipop">Click Here</a></li>
+		<li>Link to NDTV Food Lollipop Recipe <a href="https://food.ndtv.com/recipe-chicken-lollipops-98817">Click Here</a></li>
+	</ol>
+	
+	<p id="clear">This recipe is a must try. Please try and leave your commments</p>
 </body>
 </html>
